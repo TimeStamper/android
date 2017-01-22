@@ -6,23 +6,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <RelativeLayout
-        android:id="@+id/stamp_main_layout"
+    <GridLayout
+        android:id="@+id/graph_trends_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.0"
-        android:orientation="vertical" >
+        android:columnCount="1"
+        android:rowCount="3"
+        android:useDefaultMargins="true" >
 
-        <Button
+        <TextView
+            android:layout_column="0"
+            android:layout_row="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/stamp_button" />
+            android:text="Graph 1" />
 
-    </RelativeLayout>
+        <TextView
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graph 2" />
+
+        <TextView
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graph 3" />
+
+    </GridLayout>
 
     <fragment
-        android:id="@+id/main_navigation_pane_fragment"
+        android:id="@+id/trends_navigation_pane_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="8.0"
