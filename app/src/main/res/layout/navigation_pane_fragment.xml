@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/homeNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/home_navigation"/>
+
+    <Button
+        android:id="@+id/trendsNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/trends_navigation"/>
+
+    <Button
+        android:id="@+id/calenderNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/calender_navigation"/>
+
+    <Button
+        android:id="@+id/settingsNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/settings_navigation"/>
+
+</LinearLayout>
